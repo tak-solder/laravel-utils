@@ -1,0 +1,19 @@
+{
+    "name": "taksolder/laravel-utils",
+    "description": "Utility classes for Laravel",
+    "keywords": ["laravel"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": "^7.1.3"
+    },
+    "require-dev": {
+        "illuminate/support": "^5.5",
+        "illuminate/database": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "TakSolder\\LaravelUtils\\": "src/"
+        }
+    }
+}
